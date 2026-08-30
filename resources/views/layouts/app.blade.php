@@ -6,11 +6,11 @@
     <title>@yield('title')</title>
 
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    @vite('resources/js/app.js')
 </head>
 <body>
 
     @yield('content')
 
-    <script src="{{ asset('js/script.js') }}"></script>
 </body>
 </html>
